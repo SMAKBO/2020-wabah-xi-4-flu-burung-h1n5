@@ -2529,7 +2529,6 @@ select.mobile-device {
 }
 .loader:before,
 .loader:after{
-    content: "";
     display: block;
     width: 160px;
     height: 160px;
@@ -2557,7 +2556,7 @@ select.mobile-device {
     left: 0;
     -webkit-animation: 2s loading2 linear infinite;
     animation: 2s loading2 linear infinite;
-    :;
+    
 }
 #preloader {
     width: 100%;
@@ -2572,7 +2571,7 @@ select.mobile-device {
     display: block
 }
 #gambarlogo{
-    border-radius: 100px;
+  border-radius: 100px;
   line-height: 160px;
   
   width: 160px;
